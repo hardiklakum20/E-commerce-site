@@ -1,0 +1,67 @@
+.myimage{ 
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    gap: 1rem;
+    margin-top: -5rem;
+}
+
+.myimage .grid {
+    /* display: grid; */
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    /* order: 2; */
+   
+}
+.myimage .grid-four-column {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+.myimage figure {
+      width: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.5s linear;
+}
+
+.myimage img {
+        max-width: 100%;
+        max-height: 100%;
+        background-size: cover;
+        object-fit: contain;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+            rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.myimage .main-screen {
+    display: grid;
+    place-items: center;
+    order: 1;
+}
+.myimage .main-screen img {
+        max-width: 100%;
+        height: auto;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+            rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+
+
+@media (max-width:768px) {
+    .myimage{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    }
+
+    .grid-four-column {
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

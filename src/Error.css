@@ -1,0 +1,16 @@
+.containr {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.containr h2 {
+      font-size: 3rem;
+}
+
+.containr h3 {
+      font-size: 8.2rem;
+}
+
+.containr p {
+      margin: 2rem 0;
+}

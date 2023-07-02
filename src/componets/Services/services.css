@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 63rem;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+.grid {
+    display: grid;
+    gap: 6rem;
+}
+.grid-three-column {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid {
+    gap: 3.8rem;
+}
+
+.services-1,
+.services-2,
+.services-3 {
+    width: auto;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: #F6F8FA;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.services-2 {
+    gap: 2rem;
+    background-color: transparent;
+    box-shadow: none;
+}
+.services-2 .services-colum-2 {
+      background: #F6F8FA;
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      border-radius: 2rem;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.serv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+}
+.serv h3{
+    margin-top: 0.3rem;
+}
+   
+ 
+
+h3 {
+    margin-top: 1.4rem;
+    font-size: 1rem;
+}
+
+.ser .icon {
+    /* font-size: rem; */
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #5138ee;
+}
+
+
+
+
+
+.brand-section {
+    padding: 3rem 0 0 0;
+    background-color: #F6F8FA;
+  }
+.brand-section h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(29 ,29, 29, .8);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -4rem;
+}
+
+.brand-section img {
+    min-width: 7rem;
+    height: 5rem;
+}
+
+.brand-section-slider {
+    margin-top: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .brand-section-slider {
+      margin-top: 3.2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      /* background-color: red; */
+      text-align: center;
+    }
+    .grid{
+        gap: 3.2rem;
+    }
+    .grid-two-column , .grid-three-column, .grid-four-column{
+          grid-template-columns: 1fr;
+    }
+    .brand-section{
+        margin-top: 5rem;
+    }
+    .brand-section h3{
+        margin-top: 1rem;
+    }
+    .container{
+        margin-top: 5rem;
+    }
+    .services-1,.services-3{
+        display: flex;
+        flex-direction: row;
+    }
+    .services-1 .icon,.services-3 .icon{
+        margin-top: 4rem;
+    }
+}
+@media (max-width: 998px) {
+    .container {
+    max-width: 50rem;
+    padding: 0 3.2rem;
+  }
+}
+

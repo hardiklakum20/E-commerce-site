@@ -1,0 +1,36 @@
+.icon-style {
+    display: flex;
+    gap: 0rem;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -0.5rem;
+}
+.icon-style .icon {
+    font-size: 0.2rem;
+    color: orange;
+    width: 2.2rem;
+    height: 2.2rem;
+    padding: 0.5rem;
+}
+
+
+.icon-style .icon {
+    font-size: 0.2rem;
+    color: orange;
+}
+/* 
+.icon-style .icon {
+  
+    border-radius: 50%;
+    background-color: #fff;
+    color: #5138ee;
+} */
+
+.empty-icon {
+    font-size: 0.6rem;
+}
+
+.icon-style p {
+    margin: 0;
+    padding-left: 0.5rem;
+} 

@@ -1,0 +1,41 @@
+.sort-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0rem;
+}
+  .sorting-list--grid {
+    display: flex;
+    gap: 2rem;
+  }
+
+    .sort-btn {
+      padding: 0.3rem 0.3rem;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .sort-section .icon {
+      font-size: 1.5rem;
+      color: gray;
+
+    }
+    .sort-section .active {
+      background-color: #212529;
+    }
+    .sort-section .active .icon{
+      color: #fff;
+    }
+
+  .sort-selection .sort-selection--style {
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+    .sort-select--option {
+      padding: 0.5rem 0;
+      cursor: pointer;
+      height: 2rem;
+      padding: 10px;
+    }

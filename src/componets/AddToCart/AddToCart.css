@@ -1,0 +1,93 @@
+.colors p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.colors .btnStyl {
+    width: 0.5rem;
+    height: 2rem;
+    background-color: #000;
+    border-radius: 50%;
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.colors button {   
+    text-decoration: none;
+    max-width: auto;
+    background-color: rgb(98 84 243);
+    color: rgb(255 255 255);
+    padding: 0.5rem 1rem;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    }
+
+.btnStyle:hover {
+        opacity: 1;
+}
+
+
+.colors .active {
+    opacity: 1;
+}
+
+.colors .checkstyle {
+    font-size: 1rem;
+    color: #fff;
+    margin-top: -0.6rem;
+    margin-left: -0.5rem;
+}
+
+/* we can use it as a global one too  */
+.cart-button .amount-toggle {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 6rem;
+}
+
+.cart-button .cart-btn {
+    border: none;
+    /* background-color: #fff; */
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 1rem;
+    /* padding: 3rem; */
+}
+
+.cart-button .amount-style {
+    font-size: 1.5rem;
+    color: black;
+
+ } 
+  button{
+    text-decoration: none;
+        max-width: auto;
+       
+        color: rgb(255 255 255);
+        padding: 0.5rem 1rem;
+        border: none;
+        text-transform: uppercase;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+}
+.adbtn{
+    background-color: rgb(98 84 243);
+}

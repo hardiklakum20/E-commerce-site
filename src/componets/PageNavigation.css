@@ -1,0 +1,16 @@
+.pagenavi{
+  height: 2rem;
+  background-color: #F6F8FA;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  margin-top: -0.5rem;
+  padding-bottom: 0.5rem;
+  }
+ .pagenavi a {
+    font-size: 1.5rem;
+    color: blueviolet;
+    padding-bottom: 0.2rem;
+  }

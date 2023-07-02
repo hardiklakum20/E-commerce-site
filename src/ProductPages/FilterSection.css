@@ -1,0 +1,126 @@
+.section {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.section h3 {
+  padding: 2rem 0;
+  font-size: bold;
+}
+
+.filter-search input {
+  padding: 0.2rem 1rem;
+  width: 100%;
+  margin-left: -5rem;
+}
+
+.filter-category{
+  margin-left: -5rem;
+}
+.filter-category div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1rem;
+}
+.filter-category button {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-left: -1rem;
+}
+.filter-category button:hover {
+  color: rgb(98 84 243);
+}
+
+.filter-category .active {
+  border-bottom: 1px solid #000;
+  color: rgb(98 84 243);
+}
+
+.filter-company{
+  margin-left: -5rem;
+}
+.filter-company--select {
+  padding: 0.3rem 1.2rem;
+  font-size: 1.6rem;
+  color: rgba(29, 29, 29, 0.8);
+  text-transform: capitalize; 
+}
+.filter-company--select option{
+  text-transform: capitalize;
+}
+.filter-colors{
+  margin-left: -5rem;
+}
+.filter-color-style {
+  display: flex;
+  justify-content: center;
+  margin-left: -5rem;
+
+}
+
+.filter-color-style .color-all--style {
+  background-color: transparent;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  margin-top: -0.6rem;
+  font-size: 1rem;
+
+}
+.filter-color-style .btnStyle {
+  width: 0.2rem;
+  height: 0.5rem;
+  background-color: #000;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+  border: none;
+  outline: none;
+  opacity: 0.5;
+  cursor: pointer;
+  padding: 0.6rem;
+}
+.btnStyle:hover {
+  opacity: 1;
+}
+
+.filter-color-style .btnStyle .active {
+  opacity: 1;
+}
+
+.filter-color-style .checkStyle {
+  font-size: 0.6rem;
+  color: #fff;
+  margin-top: -1.5rem;
+  margin-left: -0.3rem;
+
+}
+
+.filter_price{
+  margin-left: -5rem;
+}
+.filter_price input {
+  margin: 0.5rem 0 1rem 0;
+  padding: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.filter-shipping {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filter-clear{
+  margin-left: -5rem;
+}
+.filter-clear .btn {
+  background-color: #ec7063;
+  color: #000;
+}

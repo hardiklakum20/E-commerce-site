@@ -24,7 +24,7 @@ export const Singleproduct = () => {
     company,
     price,
     description,
-    category,
+    // category,
     stock,
     stars,
     reviews,
